@@ -269,7 +269,7 @@ if(A)
 	)
 endif()
 
-foreach()
+foreach(aa)
 	target_link_libraries(ss PUBLIC
 		${DtkGui_LIBRARIES}
 		PkgConfig::libevent_core)
